@@ -3,6 +3,7 @@ name: CI
 on:
   # Run on pushes, pull-requests, and also once per day
   # (in case deps change under us, etc.)
+  workflow_dispatch:
   push:
   pull_request:
   schedule:
